@@ -6,30 +6,19 @@
     android:layout_width="match_parent"
     android:background="@drawable/bk"
     android:weightSum="3"
+    android:orientation="vertical"
     android:id="@+id/launch"
     android:layout_height="match_parent"
     tools:context="e.dell.myapplication.launcher">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:layout_marginTop="50dp"
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:fontFamily="sans-serif-condensed"
-        android:text="@string/title"
-        android:textAlignment="center"
-        android:textColor="@android:color/holo_purple"
-        android:textSize="50sp"
-        tools:fontFamily="@font/aclonica" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" />
+        app:srcCompat="@drawable/boocsa" />
 
 </LinearLayout>

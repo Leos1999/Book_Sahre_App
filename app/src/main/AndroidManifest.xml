@@ -18,11 +18,13 @@
         </activity>
         <activity android:name=".profile" />
         <activity android:name=".login" />
-        <activity android:name=".launcher"></activity>
+        <activity android:name=".launcher" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".SignUP"></activity>
     </application>
 
 </manifest>
